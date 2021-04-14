@@ -12,7 +12,7 @@ test();
 *///l'erreur vient que la variable $a n'est pas globale il faut soit utiliser une variable globale soit la passer
 //en paramatre 
 $a = 1;
-function test(){
+function test($a){
     echo $a;
 }
 test($a);
